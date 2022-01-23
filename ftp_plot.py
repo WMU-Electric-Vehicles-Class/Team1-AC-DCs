@@ -1,10 +1,4 @@
-# Team1-AC-DCs
-Welcome to our project for ME 5950 Electric Vehicles! 
-
-## Our team is Austin Owen, Vinayak Chettier, and Johan Fanas Rojas
-
-## Here is the code from the ftp_plot.py file from Lecture 0
-
+## Here is the ftp+plot.py code from Lecutre 0
 import numpy as np
 from matplotlib import pyplot as plt
 ftp = np.loadtxt('ftpcol.txt', dtype=int)
@@ -34,5 +28,3 @@ plt.plot(distance_m, speed_mps)
 plt.xlabel("Distance (m)")
 plt.ylabel("Velocity (m/sec)")
 plt.show()
-
-
